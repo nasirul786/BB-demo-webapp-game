@@ -21,20 +21,12 @@ if (!params) {
   return;
 }
 
-let attempts = 1; 
-
-for (let i = 0; i < 1; i++) {
-  // Send the installBot request
-  BBAdmin.installBot({
+BBAdmin.installBot({
     email: params,
     bot_id: bot.id
   });
 
   // Send the message with the attempt number
   Bot.sendMessage(
-    `*+${attempts} ✳Bot Sent!*\n\n🖨Email : ${params}`
+    `*✳Bot Sent!*\n\n🖨Email: ${params}`
   );
-
-  // Increment the attempts counter
-  attempts++;
-}
