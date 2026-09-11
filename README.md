@@ -1,5 +1,10 @@
+> [!IMPORTANT]
+> Bots.Business have disabled WebApp publishing via their platform. so this repo will not work anymore but you can take the html and host somewhere else. it was fun making WebApps on BB
+
+
 # DemoGamebbBot - chat bot
 It is repository for chat bot: [@DemoGamebbBot](https://t.me/DemoGamebbBot)
+
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
